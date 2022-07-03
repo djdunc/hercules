@@ -10,7 +10,7 @@ Top right corner 34.441, 18.209
 
 These are the coordinates based on this image.
 
-![phase 1 floorplan](img/phase1.png)
+![phase 1 floorplan](load_data/img/phase1.png)
 
 ## Phase 2
 
@@ -20,7 +20,7 @@ Top right corner 34.441, 18.209
 
 These are the coordinates based on this image.
 
-![phase 2 floorplan](img/phase2.png)
+![phase 2 floorplan](load_data/img/phase2.png)
 
 ## Phase 2
 
@@ -30,4 +30,4 @@ Top right corner 34.441, 18.209
 
 These are the coordinates based on this image.
 
-![phase 3 floorplan](img/phase3.png)
+![phase 3 floorplan](load_data/img/phase3.png)
