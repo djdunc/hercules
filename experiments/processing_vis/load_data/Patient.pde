@@ -12,6 +12,10 @@ class Patient {
     println(patientID);
   }
 
+  String getPatientID() {
+    return patientID;
+  }
+
   void printloc() {
     int total = patientjourney.size();
     println("The total number of journey locations is: " + total);
@@ -49,28 +53,65 @@ class Patient {
       int g = 250;
       int b = 75;
       if (patientID.indexOf(code) >=0) {
+        r = 10;
         g = 250;
-        b = 75;
+        b = 105;
       } else {
-        g = 150;
-        b = 250;
+        r = 200;
+        g = 250;
+        b = 50;
       }
 
+      // for few locations show them with a higher intensity
+      // - this is the alpha level applied to each journey
+      int a=100;
+      if (GRcode.equals("all")) {
+        a = 8;
+      } else {
+        a = 80;
+      }
 
-      if (pj.z <= timer) {
+      int timeWindow = 300;
+      if ((pj.z <= timer) && (pj.z > timer-timeWindow)) {
+
+        float aa = map(timer-pj.z, 0, timeWindow, 80, 5);
+        a =int(aa);
 
         if (patientID.indexOf(filter) >=0 || filter.equals("A")) {
 
           // draw dots
           noStroke();
-          fill(r, g, b, 5);
+          fill(r, g, b, a);
           x = pj.x * scalefactor;
           y = pj.y * scalefactor;
           y = height - y;
           circle(x, y, 8);
 
           // darw lines
-          stroke(r, g, b, 5);
+          stroke(r, g, b, a);
+          strokeWeight(1);
+          line(lastx, lasty, x, y);
+
+          // increment everything
+          lastx = x;
+          lasty = y;
+        }
+      }
+
+      if (timestep == timetostop) {
+
+        if (patientID.indexOf(filter) >=0 || filter.equals("A")) {
+
+          // draw dots
+          noStroke();
+          fill(r, g, b, a);
+          x = pj.x * scalefactor;
+          y = pj.y * scalefactor;
+          y = height - y;
+          circle(x, y, 8);
+
+          // darw lines
+          stroke(r, g, b, a);
           strokeWeight(1);
           line(lastx, lasty, x, y);
 
@@ -84,6 +125,13 @@ class Patient {
 
   void drawtoscreen() {
   }
+
+  void deletePhase() {
+    for (Patient journey : patients) {
+      patients.remove(journey);
+    }
+  }
+
 
   // A method to test if the particle system still has particles
   boolean dead() {
