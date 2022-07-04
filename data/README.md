@@ -3,6 +3,17 @@ Typically am running:
 - data import script
 - data processing script
 
+## Phase timing
+
+```
+Phase 1   11/10/21 - 12/11/21 -  5 weeks
+Phase 2   30/11/21 - 28/01/22 -  9 weeks
+Phase 3   23/02/22 - 06/05/22 - 12 weeks
+Phase 4   06/07/22 -
+```
+
+
+
 # Exp1
 first download of raw data with readings to the nearest minute. raw data in ubisense_rawdata folder
 
@@ -21,14 +32,6 @@ Research |  58    179    215    189    218    178    1037
 W/c	     | 26-Nov 06-Dec 13-Dec 20-Dec 27-Dec 03-Jan 10-Jan 17-Jan total
 Attended | 358	  111    271    267    64     267    283    386    2007
 Research | 148    144     50     80    50     144    127    167     910
-```
-
-## Phase timing
-
-```
-Phase 1   11/10/21 - 12/11/21 -  5 weeks
-Phase 2   30/11/21 - 28/01/22 -  9 weeks
-Phase 3   23/02/22 - 06/05/22 - 12 weeks
 ```
 
 # Exp2 
