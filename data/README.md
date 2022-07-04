@@ -6,6 +6,27 @@ Typically am running:
 # Exp1
 first download of raw data with readings to the nearest minute. raw data in ubisense_rawdata folder
 
+
+## 1st Iteration									
+									
+W/c	| 11-Oct	| 18-Oct	| 25-Oct	| 01-Nov	| 08-Nov	| 15-Nov	| total 		
+Attended	| 230	| 267	| 373	| 237	| 184	| 275	| 1566		
+Research	| 58	| 179	| 215	| 189	| 218	| 178	| 1037		
+									
+									
+## 2nd Iteration									
+									
+W/c	| 26-Nov	| 06-Dec	| 13-Dec	| 20-Dec	| 27-Dec	| 03-Jan	| 10-Jan	| 17-Jan	| total
+Attended	| 358	| 111	| 271	| 267	| 64	| 267	| 283	| 386	| 2007
+Research	| 148	| 144	| 50	| 80	| 50	| 144	| 127	| 167	| 910
+
+## Phase timing
+
+Phase 1 11/10/21 - 12/11/21 - 5 weeks									
+Phase 2 30/11/21 - 28/1/22 - 9 weeks									
+Phase 3 23/02/22 - 6/5/22 - 12 weeks
+
+
 # Exp2 
 Second iteration with updated raw data download including data by the second.exp2
 
