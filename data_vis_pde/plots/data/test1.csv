@@ -1,0 +1,6 @@
+index,Patient,Location,starttime,endtime,xlocation,ylocation,step_length,step_length_sec
+0,G0132,0,0,0,1,1,0,600.0
+1,G0132,0,0,0,34,1,0,600.0
+2,G0132,0,0,0,34,18,0,600.0
+3,G0132,0,0,0,1,18,0,600.0
+4,G0132,0,0,0,1,1,0,600.0
