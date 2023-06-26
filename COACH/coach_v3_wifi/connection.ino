@@ -21,11 +21,13 @@ void startWifi(){
   while (WiFi.status() != WL_CONNECTED) {
     delay(500);
     Serial.print(".");
+    blinkRGB(200, 2, 200, 0, 0);
   }
   Serial.println("");
   Serial.println("WiFi connected");
   Serial.print("IP address: ");
   Serial.println(WiFi.localIP());
+  blinkRGB(200, 5, 0, 200, 0);
 }
 
 // This function is used to make sure the arduino is connected
@@ -33,11 +35,16 @@ void startWifi(){
 // keep alive subscriptions on the broker (ie listens for inTopic)
 
 void reconnectMQTT() {
+  if (WiFi.status() != WL_CONNECTED){
+    startWifi();
+  } else {
+    //Serial.println(WiFi.localIP());
+  }
   // Loop until we're reconnected
   while (!mqttClient.connected()) {    // while not (!) connected....
     Serial.print("Attempting MQTT connection...");
     // Create a random client ID
-    String clientId = "MoorfieldsMQTT-";
+    String clientId = "BX1";
     clientId += String(random(0xffff), HEX);
     
     // Attempt to connect
@@ -71,19 +78,6 @@ void callback(char* topic, byte* payload, unsigned int length) {
   Serial.println();
   
   toggleRGB();
-  // blinky(400,3);
-
-}
-
-void blinky(int ms, int loops){
-  while(loops){
-    digitalWrite(LED_BUILTIN, HIGH);   // Turn the LED on 
-    delay(ms);
-    digitalWrite(LED_BUILTIN, LOW);  // Turn the LED off 
-    delay(ms);
-    loops-=1;   
-  }
-
 }
 
 

@@ -11,7 +11,10 @@ Adafruit_HDC1000 hdc = Adafruit_HDC1000();
 
 void setup() {
   Serial.begin(115200);
+  delay(2000);
+  Serial.println("myLux.begin");
   myLux.begin();
+  Serial.println("hdc.begin");
   if (!hdc.begin()) {
     Serial.println("Couldn't find sensor!");
     while (1);

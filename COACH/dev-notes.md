@@ -4,6 +4,11 @@ Notes on work in progress developing the COACH arduino scripts.
 
 (note: listed in reverse chronology)
 
+To do:
+
+Calibration / programming sketch for mmWave sensor using uno or d1
+
+Setup RPi access point and test range
 
 -----
 

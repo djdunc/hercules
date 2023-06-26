@@ -80,7 +80,8 @@ float totals[numberofsensors];              // Sum of all the readings
 void setup() {
   Serial.begin(115200);
   Serial1.begin(115200);  
-  delay(100);                     // give time for the serial connections to open
+  delay(1000);                     // give time for the serial connections to open
+  Serial.println("Coach v3");
 
   Wire.begin();
 
@@ -100,7 +101,11 @@ void setup() {
   WiFiDrv::pinMode(26, OUTPUT); // R
   WiFiDrv::pinMode(27, OUTPUT); // B  
 
+  toggleRGB();
+  
   // Initiate the connecting to wifi routine
+  delay(2000); // wait a second before starting wifi
+  WiFi.setHostname("BX1");
   startWifi();
 
   // Once connected to wifi establish connection to mqtt broker
@@ -108,8 +113,7 @@ void setup() {
   mqttClient.setServer(mqtt_server, 1884);
   mqttClient.setCallback(callback);
 
-  blinky(200,10);
-  toggleRGB();
+
 
   // Initialize the array to hold sensor readings with all zeros
   for (int i = 0; i < numberofsensors; i++) {
