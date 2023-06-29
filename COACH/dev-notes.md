@@ -29,6 +29,14 @@ Redesigned board layout:
 
 -----
 
+26th June
+
+Was having difficulty getting proto1 to work on office network. Kept dropping off network / not sending MQTT (although it appeared to be working). Turns out wifi connection was being dropped but loop was not catching this and still trying to send MQTT messages.
+
+Updated to add in test to see if connection is live before trying to reconnect to MQTT broker.
+
+-----
+
 19th June
 created coach v3 based on feedback from DFRobot re I2C clash. Have used:
 
