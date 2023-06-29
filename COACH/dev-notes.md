@@ -10,6 +10,23 @@ Calibration / programming sketch for mmWave sensor using uno or d1
 
 Setup RPi access point and test range
 
+
+-----
+29th June
+Created perf board prototype and was then having issues with reading from CO2 sensor (high readings, too high) and mmWave sensor (varying presence readings - all 1, all 0, sometimes flipping between the two)
+
+CO2 error was powering over 3.3V - the sensor [needs 5V](https://wiki.dfrobot.com/Gravity__Infrared_CO2_Sensor_For_Arduino_SKU__SEN0219#target_4).
+
+mmWave sensor also [required 3.6-5V](https://wiki.dfrobot.com/mmWave_Radar_Human_Presence_Detection_SKU_SEN0395) 
+
+Redesigned board layout:
+
+![Proto 2](images/proto2.jpeg)
+
+![Proto 2 front](images/proto2front.jpeg)
+
+![Proto 2 back](images/proto2back.jpeg)
+
 -----
 
 19th June

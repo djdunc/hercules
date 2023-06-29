@@ -35,7 +35,7 @@ ClosedCube_HDC1080 hdc1080;       // create HDC1080 sensor
 
 
 // EDITABLE per sensor unit -- start
-const int numReadings = 60;       // we take a measure every second, and send the average after this duration
+const int numReadings = 10;       // we take a measure every second, and send the average after this duration
 const char topic[] = "personal/ucjtdjw/moorfields/bx1/";
 // EDITABLE per sensor unit -- end
 
