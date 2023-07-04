@@ -6,10 +6,43 @@ Notes on work in progress developing the COACH arduino scripts.
 
 To do:
 
-Calibration / programming sketch for mmWave sensor using uno or d1
+Calibration / programming sketch for mmWave sensor using MKR1010 - set range as 0-3
 
 Setup RPi access point and test range
 
+Noticed that if internet drops (but wifi still connected) the device stops sending messages when internet becomes available again. Need to check every 10 mins for internet ping and if not restart wifi.
+
+
+-----
+4th July
+
+Designed v1 COACH PCB using Fusion 360 - similar to Eagle, used [this video as starting point](https://www.youtube.com/watch?v=cplzhrjvXCQ) followed by [this one](https://www.youtube.com/watch?v=eEdnImVezi8). For rounded edges used mitre function, for holes didnt use drop downs but typed in 32mm and for silverscreen moved text from "draw" layer to tNames layer - should have selected the tNames layer at outset for text on silverscreen.
+
+Uploaded Gerber file to JCLPCB and sent for first order of boards.
+
+![PCB v1 layout sent to JCLPCB](images/PCBv1.png)
+
+-----
+30th June
+
+Spotted that device had halted - was endlessly trying to reconnect to wifi. Added in the following card to reset the MKR1010 if it doesnt come back connected after 60 seconds:
+
+```
+  // check to see if connected and wait until you are
+  int counter = 0;
+  while (WiFi.status() != WL_CONNECTED) {
+    delay(600);
+    Serial.print(".");
+    blinkRGB(200, 2, 20, 150, 150);
+    counter++;
+    if(counter > 100){
+      // Perform a system reset after 100*600 = 60seconds
+      NVIC_SystemReset();   
+    }
+  }
+```
+
+Turns out board I had picked up for testing did not have updated wifinina firmware - so that might be cause of wifi crash.
 
 -----
 29th June
