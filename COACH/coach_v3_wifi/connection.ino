@@ -18,10 +18,15 @@ void startWifi(){
   WiFi.begin(ssid, password);
 
   // check to see if connected and wait until you are
+  int counter = 0;
   while (WiFi.status() != WL_CONNECTED) {
-    delay(500);
+    delay(600);
     Serial.print(".");
-    blinkRGB(200, 2, 200, 0, 0);
+    blinkRGB(200, 2, 20, 150, 150);
+    counter++;
+    if(counter > 100){
+      NVIC_SystemReset();   // Perform a system reset after 100*600 = 60seconds
+    }
   }
   Serial.println("");
   Serial.println("WiFi connected");

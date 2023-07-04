@@ -15,7 +15,8 @@ void setup() {
   WiFiDrv::pinMode(26, OUTPUT); // R
   WiFiDrv::pinMode(27, OUTPUT); // B  
 
-  blinkRGB(100,10,0,0,200);
+  glowRed(100);
+  
 
 }
 
@@ -26,9 +27,13 @@ void loop() {
   Serial.print("Presence State: ");
   Serial.println(presence);
   if(presence){
-    blinkRGB(100,10,0,200,0);
-  } else {
-    blinkRGB(100,10,200,0,0);
+    //blinkRGB(100,10,0,200,0);
+    glowGreen(1000);
+
+   } else {
+    //blinkRGB(100,10,200,0,0);
+    glowRed(1000);
+
   }
 
   //delay(1000);
@@ -47,5 +52,39 @@ void blinkRGB(int ms, int loops, int r, int g, int b){
     delay(ms);
     loops-=1;   
   }
+
+}
+
+ 
+void glowRed(int loops){
+  
+  
+  while(loops){
+    float step = millis()/1000.0;
+    int value = 128.0 + 128 * sin( step * 2.0 * PI );
+    WiFiDrv::analogWrite(25, value);
+    WiFiDrv::analogWrite(26, 0);
+    WiFiDrv::analogWrite(27, 0);
+    delay(10);
+    loops-=1;   
+  }
+  
+
+}
+
+ 
+void glowGreen(int loops){
+  
+  
+  while(loops){
+    float step = millis()/1000.0;
+    int value = 128.0 + 128 * sin( step * 2.0 * PI );
+    WiFiDrv::analogWrite(25, 0);
+    WiFiDrv::analogWrite(26, value);
+    WiFiDrv::analogWrite(27, 0);
+    delay(10);
+    loops-=1;   
+  }
+  
 
 }
