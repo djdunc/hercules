@@ -18,7 +18,7 @@ Noticed that if internet drops (but wifi still connected) the device stops sendi
 
 Designed v1 COACH PCB using Fusion 360 - similar to Eagle, used [this video as starting point](https://www.youtube.com/watch?v=cplzhrjvXCQ) followed by [this one](https://www.youtube.com/watch?v=eEdnImVezi8). For rounded edges used mitre function, for holes didnt use drop downs but typed in 32mm and for silverscreen moved text from "draw" layer to tNames layer - should have selected the tNames layer at outset for text on silverscreen.
 
-Uploaded Gerber file to JCLPCB and sent for first order of boards.
+Uploaded Gerber file to [JCLPCB and sent for first order of boards](https://jlcpcb.com/quote/gerberviewThree/8e980168a16e4b7f81937834c11c5203_1_0_6_0_0.html?isReplaceFile=false).
 
 ![PCB v1 layout sent to JCLPCB](images/PCBv1.png)
 
