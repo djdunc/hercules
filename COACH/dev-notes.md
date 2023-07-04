@@ -10,7 +10,7 @@ Calibration / programming sketch for mmWave sensor using MKR1010 - set range as 
 
 Setup RPi access point and test range
 
-Noticed that if internet drops (but wifi still connected) the device stops sending messages when internet becomes available again. Need to check every 10 mins for internet ping and if not restart wifi.
+Noticed that if internet drops (but wifi still connected) the device stops sending messages when internet becomes available again. Need to check every 10 mins for internet ping and if not restart wifi. [Arduino ping](https://reference.arduino.cc/reference/en/libraries/wifinina/wifi.ping/)
 
 
 -----
