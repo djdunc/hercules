@@ -10,7 +10,7 @@ From Ubisense:
 P1 -- 07/10/21 first data, 18/11/21 last ids, 26/11/21 last test data
 P2 -- 30/11/21 first data, 06/12/21 last data
 P3 -- 31/01/22 first data, 20/05/22 last data
-P4 -- 07/09/22 first data, still live
+P4 -- 07/09/22 first data, 06/04/22 last data
 ```
 
 The live folder contains the outputs from different experiments run with various data downloads from Ubisense (ie phase 1 - N). The cleaning / analysis scripts are in:
@@ -77,27 +77,24 @@ max                       04:37:15
 
 ## P4 - still in progress - data below for mid point
 ```
-Earliest Date:  2022-07-09 10:35:55
-Latest Date:    2023-02-27 13:02:33
+Earliest Date:  2022-09-07 10:35:55
+Latest Date:    2023-04-06 14:04:55
 
-start record count:  188576
-clean record count:  187928
+start record count:  212381
+clean record count:  211640
 
-count                          924
+count                         1033
 mean                1 hour 31 mins
 std                        42 mins
 min                       00:16:03
-25%                       00:58:18
-50%                       01:22:57
-75%                       01:54:20
+25%                       01:00:00
+50%                       01:23:57
+75%                       01:54:34
 max                       04:45:19
 ```
 
-Medical Retinal 353
-Glaucoma 257
-Cataract 314
 
-# Exp1
+# Exp1 - Old data for info only
 first download of raw data with readings to the nearest minute. raw data in ubisense_rawdata folder
 
 
