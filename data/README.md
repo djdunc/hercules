@@ -75,7 +75,7 @@ min                       00:19:03
 max                       04:37:15
 ```
 
-## P4 - still in progress - data below for mid point
+## P4 
 ```
 Earliest Date:  2022-09-07 10:35:55
 Latest Date:    2023-04-06 14:04:55
