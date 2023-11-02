@@ -4,7 +4,7 @@
 Phase 1   11/10/21 - 12/11/21 -  5 weeks 
 Phase 2   30/11/21 - 28/01/22 -  9 weeks (Note: one week of data)
 Phase 3   23/02/22 - 06/05/22 - 12 weeks 
-Phase 4   07/09/22 - 27/02/23 - 24 weeks 
+Phase 4   07/09/22 - 27/02/23 - 30 weeks 
 
 From Ubisense:
 P1 -- 07/10/21 first data, 18/11/21 last ids, 26/11/21 last test data
