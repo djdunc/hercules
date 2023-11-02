@@ -56,7 +56,7 @@ min                0 days 00:19:03
 max                0 days 04:37:15
 ```
 
-## P4 - Mean Journey Time = 1 hour 31 mins (91 mins)
+## P4 - Mean Journey Time = 1 hour 31 mins (91 mins) (includes new Cataract stream)
 ```
 Earliest Date:  2022-09-07 10:35:55
 Latest Date:    2023-04-06 14:04:55
