@@ -22,9 +22,10 @@ void startWifi(){
   while (WiFi.status() != WL_CONNECTED) {
     delay(600);
     Serial.print(".");
+    //blinkRGB(ms, loops, r, g, b)
     blinkRGB(200, 2, 20, 150, 150);
     counter++;
-    if(counter > 100){
+    if(counter > 50){
       NVIC_SystemReset();   // Perform a system reset after 100*600 = 60seconds
     }
   }

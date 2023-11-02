@@ -35,8 +35,9 @@ ClosedCube_HDC1080 hdc1080;       // create HDC1080 sensor
 
 
 // EDITABLE per sensor unit -- start
-const int numReadings = 10;       // we take a measure every second, and send the average after this duration
+const int numReadings = 30;       // we take a measure every second, and send the average after this duration
 const char topic[] = "personal/ucjtdjw/moorfields/bx1/";
+const char wifihostname[] = "BX1";
 // EDITABLE per sensor unit -- end
 
 
@@ -80,8 +81,9 @@ float totals[numberofsensors];              // Sum of all the readings
 void setup() {
   Serial.begin(115200);
   Serial1.begin(115200);  
-  delay(1000);                     // give time for the serial connections to open
-  Serial.println("Coach v3");
+  delay(3000);                     // give time for the serial connections to open
+  Serial.println("Coach v3 - release 1 - 16-10-23");
+  Serial.println(wifihostname);
 
   Wire.begin();
 
@@ -105,7 +107,7 @@ void setup() {
   
   // Initiate the connecting to wifi routine
   delay(2000); // wait a second before starting wifi
-  WiFi.setHostname("BX1");
+  WiFi.setHostname(wifihostname);
   startWifi();
 
   // Once connected to wifi establish connection to mqtt broker

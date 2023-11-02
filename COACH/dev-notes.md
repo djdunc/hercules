@@ -12,6 +12,34 @@ Setup RPi access point and test range
 
 Noticed that if internet drops (but wifi still connected) the device stops sending messages when internet becomes available again. Need to check every 10 mins for internet ping and if not restart wifi. [Arduino ping](https://reference.arduino.cc/reference/en/libraries/wifinina/wifi.ping/)
 
+Remove outliers from Light sensor at time of sending - if > than 30,000
+
+-----
+24th July
+
+Added test script to read all 5 sensor units and print to console (coach_v3_test_sensors) - seems like quite a few of the HDC1080 boards are not working and create error readings on CO2 boards.
+
+Tested sensor boards with outlier readings (independently, with other sensors, and with other sensors and pushing to wifi)
+
+-----
+19th July
+
+Assembled boards and sensors. Set 13 of them running over weekend to test connnectivity and sensor variation
+
+Process for setting up device:
+
+- update firmware on mkr1010 (make sure serial not open otherwise will fail)
+
+- upload coach v3 file - make sure to update topic and hostname
+
+- add sticky dot with device number.
+
+- check on grafana
+
+-----
+12th July
+
+Finn worked on enclosure - new folder created to host design files for base and case. Several iterations developed. Tested connectivity to 5G hub (netgear) rather than wifi. Anticipate about 4Gb a month in traffic
 
 -----
 4th July
@@ -25,7 +53,7 @@ Uploaded Gerber file to [JCLPCB and sent for first order of boards](https://jlcp
 -----
 30th June
 
-Spotted that device had halted - was endlessly trying to reconnect to wifi. Added in the following card to reset the MKR1010 if it doesnt come back connected after 60 seconds:
+Spotted that device had halted - was endlessly trying to reconnect to wifi. Added in the following code to reset the MKR1010 if it doesnt come back connected after 60 seconds:
 
 ```
   // check to see if connected and wait until you are
