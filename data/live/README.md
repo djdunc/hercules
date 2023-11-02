@@ -56,6 +56,24 @@ min                0 days 00:19:03
 max                0 days 04:37:15
 ```
 
+## P4 - Mean Journey Time = 1 hour 31 mins (91 mins)
+```
+Earliest Date:  2022-09-07 10:35:55
+Latest Date:    2023-04-06 14:04:55
+
+start record count:  212381
+clean record count:  211640
+
+count                         1033
+mean     0 days 01:31:40.815101645
+std      0 days 00:41:49.317397624
+min                0 days 00:16:03
+25%                0 days 01:00:00
+50%                0 days 01:23:57
+75%                0 days 01:54:34
+max                0 days 04:45:19
+```
+
 # Journey Time Comparisons
 
 Note: box plots only show data within 3 standard deviations - hence whiskers max and min at <3 SD's
