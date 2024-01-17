@@ -6,7 +6,7 @@ The calibration is done by connecting those two pins for 5 seconds. Please follo
 2. While monitoring the values from the sensor, connect the pins indicated in the picture, without restarting the sensor, for 5 seconds. You should notice the values change to the default level (This means the sensor has been recalibrated).
 3. Leave the sensor working for some time, if you notice the values are not close to the default level (~400ppm in One Pool Street), redo the calibration a second time.
 
-![](/co2-recalibration2.jpg)
+![](co2-recalibration2.jpg)
 
 ### Note:
 
@@ -18,5 +18,5 @@ Taken from: https://forum.arduino.cc/t/problem-with-infrared-co2-sensor-v1-1-gra
 
 
 
-![](/co2-recalibration.jpeg)
+![](co2-recalibration.jpeg)
 
