@@ -1,0 +1,1 @@
+The selected sticker is 3-2
