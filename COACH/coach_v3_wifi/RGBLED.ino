@@ -1,5 +1,5 @@
 void toggleRGB(){
-
+  Watchdog.reset();
   WiFiDrv::analogWrite(25, 255);
   WiFiDrv::analogWrite(26, 0);
   WiFiDrv::analogWrite(27, 0);
@@ -28,6 +28,7 @@ void toggleRGB(){
 
 void blinkRGB(int ms, int loops, int r, int g, int b){
   while(loops){
+    Watchdog.reset();
     WiFiDrv::analogWrite(25, r);
     WiFiDrv::analogWrite(26, g);
     WiFiDrv::analogWrite(27, b);

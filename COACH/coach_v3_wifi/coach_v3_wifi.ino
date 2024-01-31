@@ -23,6 +23,7 @@
 #include "arduino_secrets.h"    // wifi and mqtt user / pass
 #include <Wire.h>               // used for HDC1080 temp / hum sensor
 #include "ClosedCube_HDC1080.h"
+#include <Adafruit_SleepyDog.h>
 
 // set up sensors
 #include <DFRobot_B_LUX_V30B.h>
@@ -79,10 +80,12 @@ float totals[numberofsensors];              // Sum of all the readings
 
 
 void setup() {
+  Watchdog.enable(16000);
   Serial.begin(115200);
   Serial1.begin(115200);  
   delay(3000);                     // give time for the serial connections to open
-  Serial.println("Coach v3 - release 1 - 16-10-23");
+  Watchdog.reset();
+  Serial.println("Coach v3 - release 2 by Yaman - 31-1-24");
   Serial.println(wifihostname);
 
   Wire.begin();
@@ -97,7 +100,8 @@ void setup() {
 
   pinMode(LED_BUILTIN, OUTPUT);     // Initialize the LED_BUILTIN pin as an output
   digitalWrite(LED_BUILTIN, LOW);   // Turn the LED off 
-
+  Watchdog.reset();
+  
   // RGB LED's
   WiFiDrv::pinMode(25, OUTPUT); // G
   WiFiDrv::pinMode(26, OUTPUT); // R
@@ -109,7 +113,8 @@ void setup() {
   delay(2000); // wait a second before starting wifi
   WiFi.setHostname(wifihostname);
   startWifi();
-
+  Watchdog.reset();
+  
   // Once connected to wifi establish connection to mqtt broker
   // personal/ucjtdjw/moorfields/
   mqttClient.setServer(mqtt_server, 1884);
@@ -124,16 +129,19 @@ void setup() {
       readings[i][j] = 0.0;
     }
   }
+  
 
 }
 
 void loop() {
-
+  
   readSensors(0); // pass in 0 for no serial print or 1 to see readings
+  Watchdog.reset();
   //printSensorValues();
   sendAvgMQTT(1);  // pass in 0 for no serial print or 1 to see readings
-  
+  Watchdog.reset();
   // it takes roughly 500ms to read all sensors so delay another 500 to make 1 sec cycle
-  delay(500); 
+  delay(500);
+  Watchdog.reset();
 
 }

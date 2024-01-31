@@ -20,6 +20,7 @@ void startWifi(){
   // check to see if connected and wait until you are
   int counter = 0;
   while (WiFi.status() != WL_CONNECTED) {
+    Watchdog.reset();
     delay(600);
     Serial.print(".");
     //blinkRGB(ms, loops, r, g, b)
@@ -48,6 +49,7 @@ void reconnectMQTT() {
   }
   // Loop until we're reconnected
   while (!mqttClient.connected()) {    // while not (!) connected....
+    Watchdog.reset();
     Serial.print("Attempting MQTT connection...");
     // Create a random client ID
     String clientId = "BX1";
@@ -63,6 +65,7 @@ void reconnectMQTT() {
       Serial.print(mqttClient.state());
       Serial.println(" try again in 5 seconds");
       // Wait 5 seconds before retrying
+      Watchdog.reset();
       delay(5000);
     }
   }
@@ -85,5 +88,3 @@ void callback(char* topic, byte* payload, unsigned int length) {
   
   toggleRGB();
 }
-
-
