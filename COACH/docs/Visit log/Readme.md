@@ -48,6 +48,8 @@ It’s literally very annoying to stay here for more than one hour because of th
 
    ![image-smoke-smell](image-smoke-smell.png)
 
-   4. Also did some monitoring for these cubicles, mmWave and sound sensors seem to match the usage state
+   
 
-      ![mmWave-validation](mmWave-validation.png)
+4. Also did some monitoring for these cubicles, mmWave and sound sensors seem to match the usage state
+   
+   ![mmWave-validation](mmWave-validation.png)
