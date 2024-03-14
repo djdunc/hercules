@@ -4,6 +4,8 @@
 2. Changed broken plug of bx22![IMG_3345](IMG_3345.jpg)
 3. Got info from staff that cigarette smoke is low or non existing today (felt it myself). Also they said smoke tends to be high on Monday and Tuesday, less on the other days of the week. And also less if it’s raining outside (because smokers can't use the smoking area in this case).
 4. Less patients than usual today, staff told me that's the site is under-booked due to management process...
+5. Explained by staff: patients usually start coming into the waiting area at 9 am, they start getting into cubicles at 10 am. Usually, all patients are out by 5 pm, only cleaning staff remains after that until 8 pm.
+6. The shopping centre opens at 9 am and closes at 9 pm.
 
 
 
