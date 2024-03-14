@@ -15,7 +15,7 @@
 
 ![IMG_3298](IMG_3298.jpg)
 
-4. New sticker has been put on all new boxes![photo_2024-03-14_23-08-05](photo_2024-03-14_23-08-05.jpg)
+4. New sticker has been put on all wall-mounted boxes![photo_2024-03-14_23-08-05](photo_2024-03-14_23-08-05.jpg)
 5. As a summary: Two boxes were offline; one semi-unplugged and one needed reboot. The rest stayed online from last week, which is surprisingly good – probably because there were no network breakdowns.
 6. Cigarette smoke has gotten worse, it’s all over the clinic today. The staff showed me the supply vent which is directly above the smoking area.
 
