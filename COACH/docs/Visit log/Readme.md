@@ -1,3 +1,62 @@
+# BX2 visit 11/4/2024 ~ 5:30 pm
+
+1. Restarted bx25 (was offline)
+2. Restarted bx26 (mmWave was always 0)
+3. Restarted bx18 several times (was offline)
+4. Restarted bx20 (was offline)
+5. Restarted bx21 (was offline)
+6. All presence values were checked
+7. CO2 validation from 5:30 pm to 6:45 pm, no smoke smell:
+
+| BX   | CO2 reading - COACH | CO2 reading Testo | 12 hrs valid reading changes |
+| ---- | ------------------- | ----------------- | ---------------------------- |
+| bx2  | 468                 | 594               | NO                           |
+| bx1  | 1738                | 551               | YES                          |
+| bx11 | 640                 | 556               | YES                          |
+| bx3  | 520                 | 565               | NO                           |
+| bx5  | 482                 | 550               | NO                           |
+| bx6  | 529                 | 545               | NO                           |
+| bx7  | 540                 | 542               | NO                           |
+| bx13 | 638                 | 614               | NO                           |
+| bx14 | 1368                | 533               | YES                          |
+| bx10 | 462                 | 523               | NO                           |
+| bx26 | 470                 | 514               | YES                          |
+| bx25 | 567                 | 513               | NO                           |
+| bx24 | 488                 | 511               | NO                           |
+| bx23 | 1326                | 512               | YES                          |
+| bx22 | 481                 | 525               | NO                           |
+| bx19 | 512                 | 494               | NO                           |
+| bx20 | 492                 | 483               | NO                           |
+| bx16 | 597                 | 448               | YES                          |
+| bx18 | 488                 | 445               | NO                           |
+| bx21 | 456                 | 449               | NO                           |
+
+
+
+# BX2 visit 25/3/2022 @ ~5:45 pm
+
+1. All boxes were restarted, all of them were offline except bx2.
+2. CO2 readings:
+
+Bx — testo
+bx16: 630 — 570
+bx18: 486 — 520
+
+bx26: 1737 — 957
+bx25: 566 — 907
+bx24: 481 — 965
+bx23: 1868 — 980
+bx22: 485 — 1008
+
+bx1: 2082 — 908
+bx11: 884 — 951
+bx14: 1656 — 824
+bx13: 595 — 711
+
+3. Smoking won’t affect the CO2 levels! There was a smoking smell in bx18  and bx16 area at the time of taking readings, but CO2 levels seemed not affected.
+
+
+
 # BX2 visit 14/3/2022 @ ~4 pm
 
 1. Restarted bx21 & bx16
