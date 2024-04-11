@@ -39,18 +39,27 @@
 2. CO2 readings:
 
 Bx — testo
+
 bx16: 630 — 570
+
 bx18: 486 — 520
 
 bx26: 1737 — 957
+
 bx25: 566 — 907
+
 bx24: 481 — 965
+
 bx23: 1868 — 980
+
 bx22: 485 — 1008
 
 bx1: 2082 — 908
+
 bx11: 884 — 951
+
 bx14: 1656 — 824
+
 bx13: 595 — 711
 
 3. Smoking won’t affect the CO2 levels! There was a smoking smell in bx18  and bx16 area at the time of taking readings, but CO2 levels seemed not affected.
