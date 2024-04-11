@@ -6,7 +6,8 @@
 4. Restarted bx20 (was offline)
 5. Restarted bx21 (was offline)
 6. All presence values were checked
-7. CO2 validation from 5:30 pm to 6:45 pm, no smoke smell:
+7. No broken parts.
+8. CO2 validation from 5:30 pm to 6:45 pm, no smoke smell:
 
 | BX   | CO2 reading - COACH | CO2 reading Testo | 12 hrs valid reading changes |
 | ---- | ------------------- | ----------------- | ---------------------------- |
