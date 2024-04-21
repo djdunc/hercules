@@ -3,7 +3,36 @@
 - Restarted:  bx26, bx2, bx10, bx20, bx21, bx18, and bx16
 
 - Generated manual presence charts:
-  TBD
+  Time window1:
+
+  ![bx3](mmwave-comparisons/window1/bx3.png)
+
+  ![bx5](mmwave-comparisons/window1/bx5.png)
+
+  ![bx6](mmwave-comparisons/window1/bx6.png)
+
+  ![bx7](mmwave-comparisons/window1/bx7.png)
+
+  ![bx13](mmwave-comparisons/window1/bx13.png)
+
+  ![bx14](mmwave-comparisons/window1/bx14.png)
+
+  ![bx22](mmwave-comparisons/window1/bx22.png)
+
+
+  Time window 2:
+
+  ![bx1](mmwave-comparisons/window2/bx1.png)
+
+  ![bx11](mmwave-comparisons/window2/bx11.png)
+
+  ![bx23](mmwave-comparisons/window2/bx23.png)
+
+  ![bx24](mmwave-comparisons/window2/bx24.png)
+
+  ![bx25](mmwave-comparisons/window2/bx25.png)
+
+  ![bx26](mmwave-comparisons/window2/bx26.png)
 
 - Talked to staff about temperature problems, this the discussion brief:
 
