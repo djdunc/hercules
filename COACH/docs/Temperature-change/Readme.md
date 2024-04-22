@@ -1,4 +1,4 @@
-## Temperature drift discussion:
+## Temperature change discussion:
 
 ### **What is the problem?**
 
@@ -29,7 +29,7 @@ In the case of this backup box, there was a 2 Celsius degrees difference, which 
 
 ### What could be done?
 
-Turned out that sensors' temperature drift is a [well-known issue](https://www.eastsensor.com/blog/pressure-sensor-temperature-drift/) in industry. All packaged devices suffer from this and some measures have to be taken during the design process and later after the data acquisition to account for that.
+Turned out that sensors' temperature change is a [well-known issue](https://www.eastsensor.com/blog/pressure-sensor-temperature-drift/) in industry. All packaged devices suffer from this and some measures have to be taken during the design process and later after the data acquisition to account for that.
 
 Although those considerations were put in mind during the design of the COACH enclosure, but the lack of a prober heat analysis did not help in fully addressing this issue. 
 
@@ -41,9 +41,9 @@ As proposed in the [mentioned article](https://www.eastsensor.com/blog/pressure-
 - Either do a one-off comparison of the HDC1080 in and out of the enclosure, then calculate the offset and make the data correction (subtraction in this case).
 - Or, do more measurements in different temperatures to conclude a correction curve. This is more accurate but requires a temperature-controlled chamber.
 
-### The previous discussion addresses the temperature offset, what about the drift over time?
+### The previous discussion addresses the temperature offset, what about the change over time?
 
-As noticed in the following chart, a temperature drift has been going on with the COACH boxes in BX2 which seem to be starting from mid-February. 
+As noticed in the following chart, a temperature change has been going on with the COACH boxes in BX2 which seem to be starting from mid-February. 
 
 ![Screenshot 2024-04-20 000733](Screenshot2024-04-20000733.jpg)
 
@@ -52,7 +52,7 @@ As noticed in the following chart, a temperature drift has been going on with th
 My hypothesis is that we are dealing with two problems:
 
 1. A positive offset in temperature caused by the enclosure.
-2. A temporal drift in temperature caused by the weather change, which is magnified by the first problem.
+2. A temporal change in temperature caused by the weather change, which is magnified by the first problem.
 
 Let's see how is the [weather temperature in London](https://weatherspark.com/h/y/45062/2023/Historical-Weather-during-2023-in-London-United-Kingdom#Figures-Temperature) during 2024:
 
@@ -75,4 +75,4 @@ Let's zoom out to see the previous 9 months:
 
 (Temperature in 206 - Kitchen)
 
-I chose the kitchen in the office area in One Pool Street because it doesn't have windows, exactly like BX2. We can see a seasonal drift in temperature readings as expected, this could explain the drift we're getting in BX2. If this hypothesis is correct, we should be getting more drift in the upcoming 2 weeks as the weather temperature is increasing.
+I chose the kitchen in the office area in One Pool Street because it doesn't have windows, exactly like BX2. We can see a seasonal change in temperature readings as expected, this could explain the change we're getting in BX2. If this hypothesis is correct, we should be getting more change in the upcoming 2 weeks as the weather temperature is increasing.
