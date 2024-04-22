@@ -5,7 +5,7 @@
 During the visit to Brent Cross 2 on the 18th of April, a temperature comparison between the [HDC1080](https://www.ti.com/product/HDC1080?qgpn=hdc1080) and [Testo probe](https://www.testo.com/en-UK/co2-probe-digital/p/0632-1551) showed significant difference (some times COACH boxes had 2 ~ 3 Celsius degrees more than the Testo probe).
 
 This is clearly noticeable in the [visit log](../Visit%20log/Readme.md):
-<img src="Screenshot 2024-04-22 110027.jpg" alt="Screenshot 2024-04-22 110027" style="zoom:67%;" />
+<img src="Screenshot202404-22110027.jpg" alt="Screenshot2024-04-22110027" style="zoom:67%;" />
 
 
 
@@ -21,9 +21,9 @@ From a thermal study on the COACH box (using [Seek  Thermal Camera](https://www.
 
 To see the extent of that effect, I used a backup COACH in OPS where I logged the temperature while the enclosure was fully assembled in vertical mode (similar to the wall-mounted setup in BX2), and then moved the HDC1080 out of the enclosure as shown in the next images. This is compared to Testo which is our ground truth.
 
-![](HDC1080-in-out-box-vs-Testo B.png)
+![](HDC1080-in-out-box-vs-Testo.png)
 
-<img src="Screenshot 2024-04-22 105028.jpg" alt="Screenshot 2024-04-22 105028" style="zoom: 67%;" />
+<img src="Screenshot2024-04-22105028.jpg" alt="Screenshot2024-04-22105028" style="zoom: 67%;" />
 
 In the case of this backup box, there was a 2 Celsius degrees difference, which falls in our original range I noticed in BX2 (2 to 3 Celsius). This process could be repeated to all boxes to verify the difference.
 
@@ -45,7 +45,7 @@ As proposed in the [mentioned article](https://www.eastsensor.com/blog/pressure-
 
 As noticed in the following chart, a temperature drift has been going on with the COACH boxes in BX2 which seem to be starting from mid-February. 
 
-![Screenshot 2024-04-20 000733](Screenshot 2024-04-20 000733.jpg)
+![Screenshot 2024-04-20 000733](Screenshot2024-04-20000733.jpg)
 
 (Before the vertical blue line is One Pool Street, after the vertical blue line is BX2)
 
@@ -56,22 +56,22 @@ My hypothesis is that we are dealing with two problems:
 
 Let's see how is the [weather temperature in London](https://weatherspark.com/h/y/45062/2023/Historical-Weather-during-2023-in-London-United-Kingdom#Figures-Temperature) during 2024:
 
-![](Screenshot 2024-04-19 235756.jpg)
+![](Screenshot2024-04-19235756.jpg)
 
 Let's go back to 2023 and see the history of weather temperature during the 4 seasons:
 
-![Screenshot 2024-04-19 235819](Screenshot 2024-04-19 235819.jpg)
+![Screenshot 2024-04-19 235819](Screenshot 202404-19235819.jpg)
 
 In the previous charts, we can the see the change in the outdoor temperature, but would this affect the temperature inside buildings? 
 To answer this question let's see the temperature in One Pool Street during the past 5 months:
 
-![image-20240420000716016](../../../../../../AppData/Roaming/Typora/typora-user-images/image-20240420000716016.png)
+![image-20240420000716016](Screenshot2024-04-20000704.jpg)
 
 (Temperature in 206 - Kitchen)
 
 Let's zoom out to see the previous 9 months:
 
-![Screenshot 2024-04-20 000826](Screenshot 2024-04-20 000826.jpg)
+![Screenshot 2024-04-20 000826](Screenshot2024-04-20000826.jpg)
 
 (Temperature in 206 - Kitchen)
 
