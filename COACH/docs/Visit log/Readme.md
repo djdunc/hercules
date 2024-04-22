@@ -49,7 +49,7 @@
 
   ![image_testo_validation](image_testo_validation.png)
 
-​          Bx—testo: (temp-humid-co2)
+   
 
 | #    | BX name/ reading name             | Time of reading | Temp BX | Temp Testo | Humid BX | Humid Testo | CO2 BX | CO2 Testo |
 | ---- | --------------------------------- | --------------- | ------- | ---------- | -------- | ----------- | ------ | --------- |
