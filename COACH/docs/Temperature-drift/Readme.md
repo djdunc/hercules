@@ -60,7 +60,7 @@ Let's see how is the [weather temperature in London](https://weatherspark.com/h/
 
 Let's go back to 2023 and see the history of weather temperature during the 4 seasons:
 
-![Screenshot 2024-04-19 235819](Screenshot 202404-19235819.jpg)
+![Screenshot20240-19235819](Screenshot20240-19235819.jpg)
 
 In the previous charts, we can the see the change in the outdoor temperature, but would this affect the temperature inside buildings? 
 To answer this question let's see the temperature in One Pool Street during the past 5 months:
