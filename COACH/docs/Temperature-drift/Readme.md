@@ -13,17 +13,17 @@ This is clearly noticeable in the [visit log](../Visit%20log/Readme.md):
 
 From a thermal study on the COACH box (using [Seek  Thermal Camera](https://www.tester.co.uk/seek-thermal-ti-camera-compact-android-usb-c-9hz?gad_source=1&gclid=Cj0KCQjwlZixBhCoARIsAIC745Bvzc7IaTo7aEwrOKzPJOU5TFZXuEwxJzezQuO7Qu9gcxABlEtdAGAaAqv2EALw_wcB)), we can see that the top heat sources are mmWave sensor and CO2 sensor. HDC1080 is going to be surely affected by this heat.
 
-<img src="img_thermal_1680981871213.jpg" alt="img_thermal_1680981871213" style="zoom:50%;" />
+<img src="img_thermal_1680981871213.jpg" alt="img_thermal_1680981871213" style="zoom: 50%;" />
 
-<img src="img_thermal_1680981795361.jpg" alt="img_thermal_1680981795361" style="zoom:50%;" />
+<img src="img_thermal_1680981795361.jpg" alt="img_thermal_1680981795361" style="zoom: 50%;" />
 
 
 
 To see the extent of that effect, I used a backup COACH in OPS where I logged the temperature while the enclosure was fully assembled in vertical mode (similar to the wall-mounted setup in BX2), and then moved the HDC1080 out of the enclosure as shown in the next images. This is compared to Testo which is our ground truth.
 
-![](HDC1080-in-out-box-vs-Testo.png)
+<img src="HDC1080-in-out-box-vs-Testo.png" style="zoom: 33%;" />
 
-<img src="Screenshot2024-04-22105028.jpg" alt="Screenshot2024-04-22105028" style="zoom: 67%;" />
+<img src="Screenshot2024-04-22105028.jpg" alt="Screenshot2024-04-22105028" style="zoom: 50%;" />
 
 In the case of this backup box, there was a 2 Celsius degrees difference, which falls in our original range I noticed in BX2 (2 to 3 Celsius). This process could be repeated to all boxes to verify the difference.
 
