@@ -1,3 +1,19 @@
+# BX2 visit 25/4/2024 ~ 5:40 pm	
+
+- Replaced mmWave sensor in BX26 (it was a faulty sensor according to the last visit log)
+- Re-deployed wall-mounted sensors (bx22, bx23, bx24, bx25, bx26, bx1, bx11, bx13, bx14, bx16, bx18).
+- Took ceiling mounted sensors for maintenance. 
+- Temperatre comparison between Testo probe and wall-mounted COACHes:
+
+| #    | BX name | Time waiting for a reading | Temp BX | Temp Testo |
+| ---- | ------- | -------------------------- | ------- | ---------- |
+| 1    | Bx16    | 4 min                      | 25.2    | 22.8       |
+| 2    | Bx18    | 1 min                      | 24.8    | 22.9       |
+| 3    | Bx26    | 3 min                      | 24.9    | 22.9       |
+| 4    | Bx25    | 1 min                      | 25.5    | 23.1       |
+| 5    | Bx24    | 1 min                      | 25.5    | 23.4       |
+| 6    | Bx13    | 1 min                      | 25.4    | 23.5       |
+
 # BX2 visit 18/4/2024 ~ 5:19 pm
 
 - Restarted:  bx26, bx2, bx10, bx20, bx21, bx18, and bx16
