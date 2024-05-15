@@ -21,10 +21,11 @@ void setup() {
   colorMode(RGB);
   background(0);
 
-  layout = new PImage[3]; // creates array that can hold 3 PImage objects
+  layout = new PImage[4]; // creates array that can hold 3 PImage objects
   layout[0] = loadImage("img/phase1.png");
   layout[1] = loadImage("img/phase2.png");
   layout[2] = loadImage("img/phase3.png");
+  layout[3] = loadImage("img/phase4.png");
 
   frameRate(60);
   play = false;
@@ -98,6 +99,9 @@ void loadData() {
   case 3:
     table = loadTable("data/P3_input_with_sec.csv", "header");
     break;
+  case 4:
+    table = loadTable("data/P4_input_with_sec.csv", "header");
+    break;
   }
 
 
@@ -159,7 +163,7 @@ void drawMenu() {
   // menu
   textSize(12);
   text("spacebar to play / pause", 20, 60);
-  text("g: Glaucoma, r: Retina, a: All", 20, 80);
+  text("g: Glaucoma, r: Retina, c: Cataract, a: All", 20, 80);
   text(GRcode, 20, height-40);
 }
 
@@ -190,6 +194,9 @@ void keyPressed() {
   if (key == 'r') {  // little r for retina only view
     filter = "R";
   }
+  if (key == 'c') {  // little r for retina only view
+    filter = "C";
+  }
   if (key == 'a') {  // little a to jump back to all
     filter = "A";
   }
@@ -210,28 +217,34 @@ void keyPressed() {
   if (key == ',') {  // right arrow for adding 60 seconds
     timestep = timestep - 60;
   }
-  if (key == '1') {  // big R for jumping to end of retina only view
+  if (key == '1') {  
     phase = 1;
     for (int i = patients.size()-1; i >= 0; i--) {
       patients.remove(i);
     }
     loadData();
   }
-  if (key == '2') {  // big R for jumping to end of retina only view
+  if (key == '2') {  
     phase = 2;
     for (int i = patients.size()-1; i >= 0; i--) {
       patients.remove(i);
     }
     loadData();
   }
-  if (key == '3') {  // big R for jumping to end of retina only view
+  if (key == '3') {  
     phase = 3;
     for (int i = patients.size()-1; i >= 0; i--) {
       patients.remove(i);
     }
     loadData();
   }
-
+  if (key == '4') {  
+    phase = 4;
+    for (int i = patients.size()-1; i >= 0; i--) {
+      patients.remove(i);
+    }
+    loadData();
+  }
 
   if (key == 'p') {  // p - show the location data for each patient record
     int i=0;

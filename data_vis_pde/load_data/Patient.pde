@@ -52,14 +52,22 @@ class Patient {
       int r = 50;
       int g = 250;
       int b = 75;
-      if (patientID.indexOf(code) >=0) {
+      if (patientID.indexOf("G") >=0) {
         r = 10;
         g = 250;
         b = 105;
-      } else {
+      } else if (patientID.indexOf("R") >=0) {
         r = 200;
         g = 250;
         b = 50;
+      } else if (patientID.indexOf("C") >=0) {
+        r = 250;
+        g = 183;
+        b = 50;
+      } else {
+        r = 250;
+        g = 250;
+        b = 250;
       }
 
       // for few locations show them with a higher intensity
