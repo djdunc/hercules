@@ -1,8 +1,15 @@
 # BX2 visit 9/5/2024 ~ 6:23 pm
 
-- Restarted: 10, 11, 13, 16, 2, 20, 21, 22, 
+- Restarted: 10, 11, 13, 16, 2, 20, 21, 22
 
-- Manually monitored cubicles: 3,4,6,7 to compare mmWave values (To be inserted later).
+- Manually monitored cubicles: bx3,4,6,7 compared with mmWave values:
+
+  ![bx3](mmwave-comparisons/window3/bx3.png)
+
+  ![bx5](mmwave-comparisons/window3/bx5.png)
+
+  ![bx6](mmwave-comparisons/window3/bx6.png)
+
 - Temperature/Co2/Humidity comparison table:
 
 ![photo_2024-05-10_08-06-15](photo_2024-05-10_08-06-15.jpg)
