@@ -1,3 +1,82 @@
+# BX2 visit 16/5/2024 ~ 6 pm
+
+- Restarted 26, 24, 22, 11, 1, 13, 6, 20
+- Manually monitored cubicles: 19, 20, 23, 10, 13, 14, 3, 5 compared with mmWave values:
+
+window 4:
+
+![bx10](mmwave-comparisons/window4/bx10.png)
+
+
+
+![bx13](mmwave-comparisons/window4/bx13.png)
+
+![bx14](mmwave-comparisons/window4/bx14.png)
+
+![bx19](mmwave-comparisons/window4/bx19.png)
+
+![bx20](mmwave-comparisons/window4/bx20.png)
+
+
+
+window 5:
+
+![bx23](mmwave-comparisons/window5/bx23.png)
+
+
+
+window 6:
+
+![bx3](mmwave-comparisons/window6/bx3.png)
+
+![bx5](mmwave-comparisons/window6/bx5.png)
+
+
+
+(Witten table while monitoring:)
+
+<img src="photo_2024-05-17_09-18-03.jpg" alt="photo_2024-05-17_09-18-03" style="zoom: 50%;" />
+
+- The smoking bin has been removed near the air supply area, however, the staff told me that the number of people who smoke in this area was reduced but not totally gone:
+  ![photo_2024-05-17_07-49-36](photo_2024-05-17_07-49-36.jpg)
+- Some manually ambient measurements: 
+
+| Location                    | Time | Testo CO2 | Testo Temperature |
+| --------------------------- | ---- | --------- | ----------------- |
+| main waiting area           | 5:41 | 748       | 23.2              |
+| ambient air in bx25 cubicle | 5:43 | 878       | -                 |
+| ambient air in bx11 cubicle | 5:44 | 905       |                   |
+| ambient air in bx28 cubicle | 5:49 | 613       |                   |
+
+* Temperature/Co2/Humidity comparison table:
+
+| #    | BX name | Time of reading | CO2 BX | CO2 Testo | Humid BX | Humid Testo | Temp BX | Temp Testo | Temp diff |
+| ---- | ------- | --------------- | ------ | --------- | -------- | ----------- | ------- | ---------- | --------- |
+| 1    | Bx21    | 6:08            | 476    | 510       | 50.1     | 50.5        | 24.6    | 21.5       | 3.1       |
+| 2    | Bx18    | 6:12            | 773    | 524       | 48.8     | 49.8        | 23.0    | 22.3       | 0.7       |
+| 3    | Bx16    | 6:16            | 493    | 524       | 46       | 49.1        | 23.9    | 21.8       | 2.1       |
+| 4    | Bx10    | 6:20            | 487    | 602       | 44.9     | 47.4        | 25.6    | 23.2       | 2.4       |
+| 5    | Bx14    | 6:23            | 523    | 617       | 46.5     | 45.5        | 25.5    | 23.8       | 1.7       |
+| 6    | Bx13    | 6:26            | 684    | 1784      | 47.7     | 51.1        | 27.4    | 24.4       | 3.0       |
+| 7    | Bx19    | 6:29            | 1322   | 625       | 45.3     | 43.3        | 25.4    | 24.1       | 1.3       |
+| 8    | Bx20    | 6:32            | 478    | 552       | 49.4     | 45.2        | 24.5    | 23.6       | 0.9       |
+| 9    | Bx7     | 6:36            | 539    | 576       | 40.5     | 45.3        | 27.7    | 24.0       | 3.7       |
+| 10   | Bx5     | 6:39            | 479    | 616       | 44.1     | 46.7        | 27.1    | 24.3       | 2.8       |
+| 11   | Bx2     | 6:54            | 462    | 542       | 48.0     | 46.1        | 25.7    | 24.1       | 1.6       |
+| 12   | Bx3     | 6:58            | 485    | 576       | 40.8     | 46.8        | 26.6    | 23.9       | 2.7       |
+| 13   | Bx22    | 7:02            | 490    | 564       | 50.4     | 47.0        | 24.8    | 23.6       | 1.2       |
+| 14   | Bx23    | 7:04            | 628    | 559       | 49.5     | 46.7        | 24.9    | 23.6       | 1.3       |
+| 15   | Bx24    | 7:07            | 498    | 557       | 49.2     | 46.4        | 25.8    | 23.7       | 2.1       |
+| 16   | Bx25    | 7:09            | 598    | 547       | 47.6     | 45.8        | 26.1    | 23.8       | 2.3       |
+| 17   | Bx26    | 7:13            | 1537   | 533       | 47.8     | 45.5        | 25.7    | 23.9       | 1.8       |
+| 18   | Bx1     | 7:16            | 1260   | 537       | 46.8     | 45.0        | 25.9    | 24.0       | 1.9       |
+| 19   | Bx11    | 7:18            | 1015   | 536       | 45.0     | 45.3        | 25.8    | 24.1       | 1.7       |
+| 20   | Bx6     | 7:27            | 531    | 538       | 40.7     | 44.1        | 27.1    | 24.5       | 2.6       |
+
+**Temp diff average = 2.045 **
+
+
+
 # BX2 visit 9/5/2024 ~ 6:23 pm
 
 - Restarted: 10, 11, 13, 16, 2, 20, 21, 22
@@ -32,7 +111,7 @@
 | 14   | Bx19                  | 7:26            | 24.5    | 22.8       | 1.7       | 41.9     | 42.0        | 1187   | 502       |
 | 15   | Bx14                  | 7:28            | 25.5    | 23.1       | 2.4       | 40.4     | 41.5        | 524    | 493       |
 
-Temp diff average = 1.69
+**Temp diff average = 1.69**
 
 # BX2 visit 1/5/2024 ~ 6:20 pm
 
