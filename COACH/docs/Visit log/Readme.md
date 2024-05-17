@@ -33,7 +33,7 @@ window 6:
 
 
 
-(Witten table while monitoring:)
+(This table was used for presence monitoring:)
 
 <img src="photo_2024-05-17_09-18-03.jpg" alt="photo_2024-05-17_09-18-03" style="zoom: 50%;" />
 
