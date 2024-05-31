@@ -1,4 +1,33 @@
+# BX2 visit 30/5/2024 
 
+- Attended a team debrief.
+
+- Restarted bx26, bx19, bx10
+
+- Some patients like to have some chat with staff, ask questions and maybe thank the staff. Staff highlighted that although it takes time while other patients are waiting, but it’s good to let them have this chat.
+
+- Although the smoking area has moved, smokers started to smoke in front of the centre (close to the old area), which causes some cigarette smell to get in the clinic. 
+
+- Staff talked about the clinic being colder than expected. Turned out this is clearly visible on Grafana, and started two days ago:
+
+  ![Screenshot 2024-05-31 020757](Screenshot 2024-05-31 020757.jpg)
+
+  After asking security, turned out someone has changed the temperature two days ago using the HVAC control panel:
+
+  ![photo_2024-05-30_21-08-45 (2)](photo_2024-05-30_21-08-45 (2).jpg)
+
+- Security also mentioned that the management asked him to turn the HVAC off during night to reduce bills. 
+
+#### Useful info about staff numbers:
+
+- There are 4 to 5 staff usually in VA.
+- There are 2 to 3 staff usually in VF.
+- There are 4 staff at Scans section [4.2] and 3 to 4 staff at Photos section [4.3] (they move the same patients).
+- Cataract section only has 3 staff, those staff members are taken from the front side staff. 
+- Normally there are 6-8 staff (technicians) in the clinic, they should be 13.
+- Sometimes helping staff come to the clinic, this could happen on a Saturday. There are 8 to 10 staff on Saturday (helping staff may come on this day but rarely). 
+- Monday is full house 10 to 11 staff. 
+- New staff training takes 8 to 10 weeks, this includes shadowing, training and testing. 
 
 # BX2 visit 23/5/2024 
 
