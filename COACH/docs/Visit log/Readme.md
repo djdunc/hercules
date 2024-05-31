@@ -1,9 +1,59 @@
+
+
+# BX2 visit 23/5/2024 
+
+- Restarted 18,16,23,21
+- Attended a team debrief.
+
+#### Useful info learned from staff:
+
+* The clinic is divided into two sections, Glaucoma and Retina on the front side of the clinic, Cataract on the back side.
+
+![clinic-sections](clinic-sections.jpg)
+
+- The clinic has 100-110 patients per day.
+
+- The back side opens only 4 days a week (2 Saturdays a month). It has 20 patients max per day when it’s open. 
+
+- This is a brief regarding the patient journey throughout the clinic:
+
+  ![patient-journey](patient-journey.jpg)
+
+  - First, patients wait in the main reception [1]
+  - Patients are called to VA (Visual Acuity), this depends on their condition, Glaucoma and Retina patients go to [2.1], Cataract patients go to [2.2].
+  - Patients wait in waiting areas inside [3].
+  - Patients go to either VF (Visual Field) [4.1] or scans [4.2] or photos [4.3].
+  - Patient finish their journey and head to the reception again.
+
+- Curtains status:
+  - Each VA has its curtains closed all the time (for patient privacy, this includes sensitive questions and discussions). Lights are always on (sometimes are dimmed by staff). This applies on [2.1] and [2.2].
+  - In other cubicles, closed curtains means an examination is going on. (My observation: not all the time curtains are closed).
+  - VF cubicles [4.1] are always closed.
+  - Scans cubicles [4.2] have their curtains closed 40% of the time.
+  - Photos cubicles [4.3] curtains are 80% closed.
+- Bx21 50% is used for less than 5 min.
+- Bx7 only for staff, Bx3 to 6 are for patients.
+- Some patients have hard conditions (in terms of mobility and interaction). Some patients with their relatives enter without telling staff about their deteriorating condition which stops and delays the examinations. 1 or 2 patients per day. 
+- For example, having Dementia could cause a patient spending 200% time in VF compared to regular patients.
+
+
+
+#### My ideas:
+
+- Check examinations times in VF, see the average and outliers. 
+- Todo: understand how each type of examinations are done.
+- Q for next visit: how staff are distributed on cubicles?
+- Todo: an intersection between light and presence could help. 
+- Todo: Redesign Grafana dashboard to display all sensors for a certain cubicle.
+
+
+
 # BX2 visit 16/5/2024 ~ 6 pm
 
 - Restarted 26, 24, 22, 11, 1, 13, 6, 20
 - Manually monitored cubicles: 19, 20, 23, 10, 13, 14, 3, 5 compared with mmWave values:
 
-window 4:
+#### Window 4:
 
 ![bx10](mmwave-comparisons/window4/bx10.png)
 
@@ -19,13 +69,13 @@ window 4:
 
 
 
-window 5:
+#### Window 5:
 
 ![bx23](mmwave-comparisons/window5/bx23.png)
 
 
 
-window 6:
+#### Window 6:
 
 ![bx3](mmwave-comparisons/window6/bx3.png)
 
@@ -73,7 +123,7 @@ window 6:
 | 19   | Bx11    | 7:18            | 1015   | 536       | 45.0     | 45.3        | 25.8    | 24.1       | 1.7       |
 | 20   | Bx6     | 7:27            | 531    | 538       | 40.7     | 44.1        | 27.1    | 24.5       | 2.6       |
 
-**Temp diff average = 2.045 **
+**Temp diff average = 2.045**
 
 
 
@@ -149,26 +199,26 @@ window 6:
 - Restarted:  bx26, bx2, bx10, bx20, bx21, bx18, and bx16
 
 - Generated manual presence charts:
-  Time window1:
-
-  ![bx3](mmwave-comparisons/window1/bx3.png)
-
-  ![bx5](mmwave-comparisons/window1/bx5.png)
-
-  ![bx6](mmwave-comparisons/window1/bx6.png)
-
-  ![bx7](mmwave-comparisons/window1/bx7.png)
-
-  ![bx13](mmwave-comparisons/window1/bx13.png)
-
-  ![bx14](mmwave-comparisons/window1/bx14.png)
-
+  
+#### Time window1:
+  
+![bx3](mmwave-comparisons/window1/bx3.png)
+  
+![bx5](mmwave-comparisons/window1/bx5.png)
+  
+![bx6](mmwave-comparisons/window1/bx6.png)
+  
+![bx7](mmwave-comparisons/window1/bx7.png)
+  
+![bx13](mmwave-comparisons/window1/bx13.png)
+  
+![bx14](mmwave-comparisons/window1/bx14.png)
+  
   ![bx22](mmwave-comparisons/window1/bx22.png)
 
+####   Time window 2:
 
-  Time window 2:
-
-  ![bx1](mmwave-comparisons/window2/bx1.png)
+![bx1](mmwave-comparisons/window2/bx1.png)
 
   ![bx11](mmwave-comparisons/window2/bx11.png)
 
