@@ -10,11 +10,11 @@
 
 - Staff talked about the clinic being colder than expected. Turned out this is clearly visible on Grafana, and started two days ago:
 
-  ![Screenshot 2024-05-31 020757](Screenshot 2024-05-31 020757.jpg)
+  ![Screenshot-2024-05-31-020757](Screenshot-2024-05-31-020757.jpg)
 
   After asking security, turned out someone has changed the temperature two days ago using the HVAC control panel:
 
-  ![photo_2024-05-30_21-08-45 (2)](photo_2024-05-30_21-08-45 (2).jpg)
+  ![photo_2024-05-30_21-08-45-2](photo_2024-05-30_21-08-45-2.jpg)
 
 - Security also mentioned that the management asked him to turn the HVAC off during night to reduce bills. 
 
