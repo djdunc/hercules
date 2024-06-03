@@ -61,7 +61,7 @@
 - Curtains status:
   - Each VA has its curtains closed all the time (for patient privacy, this includes sensitive questions and discussions). Lights are always on (sometimes are dimmed by staff). This applies on [2.1] and [2.2].
   - In other cubicles, closed curtains means an examination is going on. (My observation: not all the time curtains are closed).
-  - VF cubicles [4.1] are always closed.
+  - VF cubicles [4.1] are 100% closed.
   - Scans cubicles [4.2] have their curtains closed 40% of the time.
   - Photos cubicles [4.3] curtains are 80% closed.
 - Bx21 50% is used for less than 5 min.
