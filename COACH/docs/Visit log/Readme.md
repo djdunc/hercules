@@ -18,6 +18,10 @@
 
 - Security also mentioned that the management asked him to turn the HVAC off during night to reduce bills. 
 
+- Everyday the number of expected patients is written on this board in reception:
+
+  ![photo_2024-05-30_21-08-45](photo_2024-05-30_21-08-45.jpg)
+
 #### Useful info about staff numbers:
 
 - There are 4 to 5 staff usually in VA.
@@ -230,19 +234,19 @@
 - Generated manual presence charts:
   
 #### Time window1:
-  
+
 ![bx3](mmwave-comparisons/window1/bx3.png)
-  
+
 ![bx5](mmwave-comparisons/window1/bx5.png)
-  
+
 ![bx6](mmwave-comparisons/window1/bx6.png)
-  
+
 ![bx7](mmwave-comparisons/window1/bx7.png)
-  
+
 ![bx13](mmwave-comparisons/window1/bx13.png)
-  
+
 ![bx14](mmwave-comparisons/window1/bx14.png)
-  
+
   ![bx22](mmwave-comparisons/window1/bx22.png)
 
 ####   Time window 2:
