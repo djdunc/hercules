@@ -46,7 +46,7 @@
 
 - The clinic has 100-110 patients per day.
 
-- The back side opens only 4 days a week (2 Saturdays a month). It has 20 patients max per day when it’s open. 
+- The Cataract section opens only 4 days a week (2 Saturdays a month). It has 20 patients max per day when it’s open. 
 
 - This is a brief regarding the patient journey throughout the clinic:
 
