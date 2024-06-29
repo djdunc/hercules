@@ -1,3 +1,70 @@
+# BX2 visit 27/6/2024 
+
+- Restarted: 16, 20, 24, 25, 26, 3, 5, 7
+- No damaged power adapters.
+- Talked to staff about cubicle types (didn't attend the team briefing). 
+
+* Bx19 occupancy:
+  * On 5:18:00
+  * Off 5:22:35
+  * On 5:28:38
+  * Off 5:42:42
+  * On 5:49:55
+  * Off 5:56:50
+
+- A machine was put near BX16, I was worried it might blocked the mmWave field of view, but after testing I saw it was detecting me fine:
+
+  ![photo_2024-06-29_01-22-13](photo_2024-06-29_01-22-13.jpg)
+
+- Patient numbers:
+
+  ![photo_2024-06-29_01-21-47](photo_2024-06-29_01-21-47.jpg)
+
+##### mmWave monitored windows analysis:
+
+Note: sensor values less than 0.5 are treated as a no occupancy
+
+| Window                                          | BX   | BX occupancy minutes | Real occupancy minutes | Difference        | Error %    |
+| ----------------------------------------------- | ---- | -------------------- | ---------------------- | ----------------- | ---------- |
+| [window 1](mmwave-comparisons/window1/bx13.png) | BX13 | 17 min               | 18 min                 | -1 min            | 5.6%       |
+| [window 2](mmwave-comparisons/window2/bx1.png)  | BX1  | 11.5 min             | 12 min                 | -0.5 min          | 4.2%       |
+| [window 2](mmwave-comparisons/window2/bx23.png) | BX23 | 16 min               | 16 min                 | 0 min             | 0%         |
+| [window 3](mmwave-comparisons/window3/bx5.png)  | BX5  | 7.7 min              | 7.5 min                | +0.2 min          | 2.7%       |
+| [window 4](mmwave-comparisons/window4/bx10.png) | BX10 | 12 min               | 8.5 min                | +3.5 min          | 41.2%      |
+| [window 4](mmwave-comparisons/window4/bx13.png) | BX13 | 14.7 min             | 18.5 min               | -3.8 min          | 20.5%      |
+| [window 4](mmwave-comparisons/window4/bx19.png) | BX19 | 18.5 min             | 17.8 min               | +0.7 min          | 4%         |
+| [window 5](mmwave-comparisons/window5/bx23.png) | BX23 | 11.6 min             | 11.6 min               | 0 min             | 0%         |
+| [window 7](mmwave-comparisons/window7/bx19.png) | BX19 | 40 min               | 25 min                 | +15 min           | 60%        |
+| [window 8](mmwave-comparisons/window8/bx26.png) | BX26 | 14.8 min             | 16 min                 | -1.2 min          | 7.5%       |
+|                                                 |      |                      |                        | **Error Average** | **14.57%** |
+|                                                 |      |                      |                        | **Accuracy**      | **85.43%** |
+
+**Insights:**
+
+- mmWave sensor accuracy: 85.43%
+- False positives: 4/9
+- False negatives: 4/9
+- Correct windows: 2/9
+- False positive is higher (19.4 min compared to 7.3 min false negative).
+
+# BX2 visit 20/6/2024 
+
+- Bx26
+
+  5:00:00 on
+
+  5:16:00 off
+
+- Restarted bx16, 13, 21
+
+- Replaced damaged power adapter 26
+
+- Team debrief:
+  - A patient came to the clinic and refused to be examined after attending! This means the patient would be treated as not attending. 
+  - The next 6 months would be better regarding this problem. 
+
+
+
 # BX2 visit 30/5/2024 
 
 - Attended a team debrief.
@@ -40,7 +107,7 @@
 
 #### Useful info learned from staff:
 
-* The clinic is divided into two sections, Glaucoma and Retina on the front side of the clinic, Cataract on the back side.
+* The clinic is divided into two sections, Glaucoma and Retina on the front side of the clinic, Cataract on the other side.
 
 ![clinic-sections](clinic-sections.jpg)
 
