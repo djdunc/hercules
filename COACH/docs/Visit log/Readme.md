@@ -1,3 +1,22 @@
+# BX2 visit 8/7/2024 
+
+* Bx22 occupancy:
+  * 5:06:00 on
+  * 5:36:50 off
+  * 5:37:20 on
+  * 5:38:15 off
+
+- Restarted 11, 1, 23, 5
+- Changed malfunctioning HDC1080 of bx11. 
+
+* Team debrief: 
+  * Gabriela’s best time to ask questions is 4:30 pm everyday.
+  * Gabriela will be the waiting for an email about my clinic layout questions.
+  * The team were talking about doing the checks, where at BX1 one staff was assigned to do the checks, here the team could cycle this duty between them.
+  * They were talking about system (optos). 
+* Gabriela sometimes have hard time doing the check, she has to take pictures manually of the scans then sending them by email.
+* Some patients ask about their situation after the scans. Gabriela said that the team should not give the last word (they’re not medically trained to do that). In this case, it’s good to reassure the patient <u>with emphasising</u> that the final word is for the doctor in the letter. It is also good to answer them when they ask if their numbers are in the normal range. 
+
 # BX2 visit 27/6/2024 
 
 - Restarted: 16, 20, 24, 25, 26, 3, 5, 7
