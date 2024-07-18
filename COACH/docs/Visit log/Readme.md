@@ -1,5 +1,27 @@
+# Bx2 visit 18/7/2024
+
+- Restarted 26, 25, 22, 16, 5
+- BX26 had a broken USB cable, it was replaced.
+
+![photo_2024-07-18_22-26-33](photo_2024-07-18_22-26-33.jpg)
+
+- Team debrief (it was a short one, Gabriela had to go out soon, meeting delayed until next week):
+  - Some patients have to be advised to not drive after being treated.
+  - There was a patient with missing scans (they had to repeat the process for the patient).
+- Discussion with Ameen:
+  - Cataract blood pressure only measured if an operation is due soon.
+  - Unknown machines were identified and mapped to the floor plans.
+
+- bx10 occupancy:
+  - On 4:40:30
+  - Off 4:42:05
+
+- bx20 occupancy:
+  - Off 4:35 pm
+
 # BX2 visit 8/7/2024 
 
+* People are still smoking in front of the Shopping Centre which causes the smoke to get it in.
 * Bx22 occupancy:
   * 5:06:00 on
   * 5:36:50 off
@@ -14,7 +36,7 @@
   * Gabriela will be the waiting for an email about my clinic layout questions.
   * The team were talking about doing the checks, where at BX1 one staff was assigned to do the checks, here the team could cycle this duty between them.
   * They were talking about system (optos). 
-* Gabriela sometimes have hard time doing the check, she has to take pictures manually of the scans then sending them by email.
+* Gabriela sometimes has hard time doing the check, she has to take pictures manually of the scans then sending them by email.
 * Some patients ask about their situation after the scans. Gabriela said that the team should not give the last word (they’re not medically trained to do that). In this case, it’s good to reassure the patient <u>with emphasising</u> that the final word is for the doctor in the letter. It is also good to answer them when they ask if their numbers are in the normal range. 
 
 # BX2 visit 27/6/2024 
