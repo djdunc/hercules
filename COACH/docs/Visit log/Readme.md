@@ -22,11 +22,15 @@
 # BX2 visit 8/7/2024 
 
 * People are still smoking in front of the Shopping Centre which causes the smoke to get it in.
+
 * Bx22 occupancy:
+  
   * 5:06:00 on
   * 5:36:50 off
   * 5:37:20 on
   * 5:38:15 off
+  
+  ![bx22](mmwave-comparisons/window9/bx22.png)
 
 - Restarted 11, 1, 23, 5
 - Changed malfunctioning HDC1080 of bx11. 
@@ -77,15 +81,16 @@ Note: sensor values less than 0.5 are treated as a no occupancy
 | [window 5](mmwave-comparisons/window5/bx23.png) | BX23 | 11.6 min             | 11.6 min               | 0 min             | 0%         |
 | [window 7](mmwave-comparisons/window7/bx19.png) | BX19 | 40 min               | 25 min                 | +15 min           | 60%        |
 | [window 8](mmwave-comparisons/window8/bx26.png) | BX26 | 14.8 min             | 16 min                 | -1.2 min          | 7.5%       |
-|                                                 |      |                      |                        | **Error Average** | **14.57%** |
-|                                                 |      |                      |                        | **Accuracy**      | **85.43%** |
+| [window 9](mmwave-comparisons/window9/bx22.png) | BX22 | 32.1 min             | 31.9 min               | +0.2              | 0%         |
+|                                                 |      |                      |                        | **Error Average** | **13.24%** |
+|                                                 |      |                      |                        | **Accuracy**      | **86.75%** |
 
 **Insights:**
 
-- mmWave sensor accuracy: 85.43%
+- mmWave sensor accuracy: 86.75%
 - False positives: 4/9
 - False negatives: 4/9
-- Correct windows: 2/9
+- Correct windows: 3/9
 - False positive is higher (19.4 min compared to 7.3 min false negative).
 
 # BX2 visit 20/6/2024 
