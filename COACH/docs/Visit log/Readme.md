@@ -1,3 +1,87 @@
+# BX2 visit 1/8/2024
+
+- Restarted: 24,23,6,721,10
+- bx21 is a storage room now
+- Broken bx11 adapter, was replaced
+- Occupancy monitoring:
+  - Bx19:
+    - 4:33:10 on
+    - 4:42:00 off
+    - 4:45:10 on
+    - 4:52:00 on
+  - Bx10: offline
+    - 4:50:00 on
+    - 4:55:40 off
+  - Bx20:
+    - 4:55:00 on
+    - 5:07:00 on
+  - Bx20:
+    - 5:14:00 off
+    - 5:14:50 on
+    - 5:15:00 off
+    - 5:24:00 off
+  - Bx19:
+    - 5:25:00 on
+    - 5:26:30 machine is off
+    - 5:27:00 off
+
+- Bx14 occupancy was correct when staff entered the cubicle 
+
+- At 9:20 to 9:40 everyday machines are turned on
+
+- From observation, BX19's mmWave sensor was detecting the OCT fan movement as an active occupancy, occupancy value was changed to 0 when the device was off:
+
+  ![mmWave-OCT-fan](mmWave-OCT-fan.png)
+
+![Screenshot 2024-08-02 171845](Screenshot 2024-08-02 171845.jpg)
+
+- Team debrief:
+  - Some patients with wheelchairs
+  - Tomorrow more staff, an easier day
+  - Tomorrow Friday:  
+    - MR: 24 am and 21 pm
+    - GL: 24 am and 23 pm
+  - Aim for 4:30 finish on Friday
+  - Some staff spend more time talking with patients which delays the process. If this happens in VA this will delay the rest cubicles. 
+  - It’s ok to have longer chat if the patient has a language barrier, communication problems… etc. but nothing else. 
+
+- Sound measurements:
+
+| BX No.            | Time    | BX dBA | RS Pro dBA | Correction value |
+| ----------------- | ------- | ------ | ---------- | ---------------- |
+| Bx26              | 6:42:00 | 66.9   | 47.2       | **-19.7**        |
+| Bx25              | 6:36:10 | 71.7   | 46.0       | **+25.7**        |
+| Bx24              | 6:38:30 | 66.3   | 47.1       | **+19.2**        |
+| Bx23              | 6:43:15 | 66.1   | 49.9       | **+16.2**        |
+| Bx22              | 6:48:31 | 70.9   | 50.4       | **+20.5**        |
+| Bx1               | 6:53:18 | 49.6   | 48.9       | +0.7             |
+| Bx3               | 6:56:35 | 50     | 47.5       | +2.5             |
+| Bx5               | 7:01:22 | 49.8   | 41.9       | +7.9             |
+| Bx11              | 7:05:10 | 46.7   | 44.2       | +2.5             |
+| Bx26 **(again)**  | 7:23:00 | 63.9   | 44.5       | **+19.4**        |
+| Bx20              | 7:21:05 | 56.2   | 31.7       | **+24.5**        |
+| Bx19              | 7:22:08 | 41.7   | 31.2       | +10.5            |
+| Bx13              | 7:23:48 | 44.6   | 33.8       | +10.8            |
+| Bx10 **(faulty)** | 7:24:31 | 9.2    | 39.2       | **-30.0**        |
+| Bx14              | 7:27:11 | 44.7   | 37.9       | +6.8             |
+| Bx2               | 7:28:29 | 42.8   | 38.2       | +4.6             |
+| Bx16              | 7:31:56 | 47.4   | 64.4       | **-17.0**        |
+| Bx18              | 7:33:33 | 40.6   | 30.2       | +10.4            |
+| Bx21              | 7:34:47 | 52.2   | 54.9       | -2.7             |
+| Bx7               | 7:36:12 | 40.8   | 66.4       | **-25.6**        |
+| Bx6               | 7:41:12 | 40.6   | 35.5       | +5.1             |
+
+Notes:
+
+- At 6:59:10 HVAC was semi-off
+- At 7:23:00 HVAC was totally off (got more quite)
+
+# Bx2 visit 25/7/2024
+
+- Restarted 10, 11, 20, 23
+- Had a meeting with Gabriela, key points:
+  - 
+
 # Bx2 visit 18/7/2024
 
 - Restarted 26, 25, 22, 16, 5
