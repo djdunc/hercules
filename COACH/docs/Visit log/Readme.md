@@ -81,7 +81,17 @@ Notes:
 
 - Restarted 10, 11, 20, 23
 - Had a meeting with Gabriela, key points:
-  - 
+  - Patient flow was updated (4 clinics in total).
+  - It was highlighted that equipment in cubicles are not always static; cubicles are changing depending on daily needs.
+  - Staff did not get the results and conclusions from BX1, which seemed a broken circle.
+  - BX24 tend to be more noisy and colder than the rest of VA cubicles, that's why staff do not prefer it.
+  - A comment on BX1: it did not make sense to her that adding Cataract clinic caused all clinics to be slower, because they have separate staff and cubicles.
+  - It is important to correct the circle and act on the findings of this research phase.
+  - The cold AC problem has not been fixed yet, staff are getting ill.
+  - Staff agreed that monitoring cubicles and the environment currently (not just patients like phase 1) is good to help staff and technicians.
+  - A problem arises in the discussion about different Moorfields clinics not having the same standards.
+- Team debrief:
+  - A patient went without completing his scans, he will be contacted again to be informed of this and make a second visit.
 
 # Bx2 visit 18/7/2024
 
@@ -160,11 +170,11 @@ Note: sensor values less than 0.5 are treated as a no occupancy
 | [window 2](mmwave-comparisons/window2/bx1.png)  | BX1  | 11.5 min             | 12 min                 | -0.5 min          | 4.2%       |
 | [window 2](mmwave-comparisons/window2/bx23.png) | BX23 | 16 min               | 16 min                 | 0 min             | 0%         |
 | [window 3](mmwave-comparisons/window3/bx5.png)  | BX5  | 7.7 min              | 7.5 min                | +0.2 min          | 2.7%       |
-| [window 4](mmwave-comparisons/window4/bx10.png) | BX10 | 12 min               | 8.5 min                | +3.5 min          | 41.2%      |
-| [window 4](mmwave-comparisons/window4/bx13.png) | BX13 | 14.7 min             | 18.5 min               | -3.8 min          | 20.5%      |
+| [window 4](mmwave-comparisons/window4/bx10.png) | BX10 | 12 min               | 8.5 min                | +3.5 min          | **41.2%**  |
+| [window 4](mmwave-comparisons/window4/bx13.png) | BX13 | 14.7 min             | 18.5 min               | -3.8 min          | **20.5%**  |
 | [window 4](mmwave-comparisons/window4/bx19.png) | BX19 | 18.5 min             | 17.8 min               | +0.7 min          | 4%         |
 | [window 5](mmwave-comparisons/window5/bx23.png) | BX23 | 11.6 min             | 11.6 min               | 0 min             | 0%         |
-| [window 7](mmwave-comparisons/window7/bx19.png) | BX19 | 40 min               | 25 min                 | +15 min           | 60%        |
+| [window 7](mmwave-comparisons/window7/bx19.png) | BX19 | 40 min               | 25 min                 | +15 min           | **60%**    |
 | [window 8](mmwave-comparisons/window8/bx26.png) | BX26 | 14.8 min             | 16 min                 | -1.2 min          | 7.5%       |
 | [window 9](mmwave-comparisons/window9/bx22.png) | BX22 | 32.1 min             | 31.9 min               | +0.2              | 0%         |
 |                                                 |      |                      |                        | **Error Average** | **13.24%** |
