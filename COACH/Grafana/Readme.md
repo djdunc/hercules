@@ -1,7 +1,7 @@
 ## Top used Influx Queries
 
 ### Offline times over selected time period:
-`import "strings"
+``` import "strings"
 from(bucket: "ce_bucket")
   |> range(start: v.timeRangeStart, stop: v.timeRangeStop)
   |> filter(fn: (r) => r["_measurement"] == "mqtt_consumer")
@@ -9,10 +9,11 @@ from(bucket: "ce_bucket")
   |> keep(columns: ["_time", "moorfields-environment"])
   |> elapsed(unit: 1m)
   |> group(columns: ["moorfields-environment"])
-  |> sum(column: "elapsed")`
+  |> sum(column: "elapsed") 
+  ```
 
 ### Occupancy during work hours (includes rounding for one digit after the floating point):
-`import "math"
+``` import "math"
 import "date"
 import "regexp"
 
@@ -47,4 +48,4 @@ from(bucket: "ce_bucket")
       // Return the result with the combined value //old: r.value
       return { r with _value: combined_value_str }
   })
-`
+```
