@@ -33,7 +33,7 @@
 
   ![mmWave-OCT-fan](mmWave-OCT-fan.png)
 
-![Screenshot 2024-08-02 171845](Screenshot 2024-08-02 171845.jpg)
+![Screenshot-2024-08-02-171845](Screenshot-2024-08-02-171845.jpg)
 
 - Team debrief:
   - Some patients with wheelchairs
