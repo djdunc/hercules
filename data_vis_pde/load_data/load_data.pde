@@ -202,11 +202,11 @@ void keyPressed() {
   }
   if (key == 'G') {  // big G for jumping to end of Glaucoma only view
     filter = "G";
-    timestep = timetostop;
+    timestep = timetostop - 100;
   }
   if (key == 'R') {  // big R for jumping to end of retina only view
     filter = "R";
-    timestep = timetostop;
+    timestep = timetostop - 100;
   }
   if (key == '0') {  // big R for jumping to end of retina only view
     timestep = 0;
