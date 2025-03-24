@@ -17,6 +17,10 @@ The live folder contains the outputs from different experiments run with various
 - hercules/data_import folder
 - hercules/data_processing folder
 
+Visit numbers:
+P1 |  P2  | P3 | P4
+:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
+![P1 Patients per day](P1_grouped_data-bar-chart.png)  |  ![P2 Patients per day](P2_grouped_data-bar-chart.png)  |  ![P3 Patients per day](P3_grouped_data-bar-chart.png)   |  ![P4 Patients per day](P4_grouped_data-bar-chart.png)
 
 # Live 
 Second iteration with updated raw data download including data by the second.
