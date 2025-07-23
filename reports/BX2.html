@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Uncharted Waters: House Mill Presentation for CUPUM 2025</title>
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/reset.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/reveal.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/theme/simple.min.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/plugin/highlight/monokai.min.css">
+
+        <!-- background colours from blue to orange for text only slides
+            <section data-background-color="#D9E5FA"> x
+            <section data-background-color="#E0D9FA"> x
+            <section data-background-color="#EDD9FA"> x
+            <section data-background-color="#FAD9FA">
+            <section data-background-color="#FAD9F0">
+            <section data-background-color="#FAD9E5">
+            <section data-background-color="#FAD9DC">
+            <section data-background-color="#FAD9D9">
+            <section data-background-color="#FADCD9">
+            <section data-background-color="#FAE5D9">
+        -->
+
+        <style>
+
+            /* Custom styles for a more professional look */
+            :root {
+                --r-main-font: "Inter", sans-serif;
+                --r-heading-font: "Inter", sans-serif;
+                --r-main-font-size: 32px;
+            }
+            
+            .reveal .slides section {
+                text-align: left;
+            }
+
+            .reveal h1, .reveal h2, .reveal h3 {
+                text-transform: none;
+                font-weight: 700;
+            }
+
+            .reveal .slides section ul {
+                list-style-type: none;
+                padding-left: 0;
+            }
+
+            .reveal .slides section li {
+                padding-left: 1.5em;
+                text-indent: -1.5em;
+                margin-bottom: 0.5em;
+            }
+
+            .reveal .slides .title-slide {
+                text-align: center;
+            }
+            .reveal .slides .title-slide h1 {
+                font-size: 2.5em;
+                margin-bottom: 0.5em;
+            }
+             .reveal .slides .title-slide p {
+                margin-bottom: 0.25em;
+            }
+            .split-layout {
+                display: flex;
+                width: 100%;
+                height: 100%;
+                gap: 40px; /* Space between the two columns */
+                align-items: center; /* Vertically center the content */
+            }
+
+            .split-layout > div {
+                flex: 1; /* Each column takes up half the space */
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+
+            .split-layout .split-text {
+                background-color: rgba(250, 250, 250, 0.8); /* Semi-transparent white background */
+                padding: 20px;
+                border-radius: 5px;
+            }
+
+            .split-layout .split-text-clear {
+                padding: 20px;
+                border-radius: 5px;
+            }
+
+            .split-layout img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover; /* Ensures the image fills the container without distortion */
+                border-radius: 0px;
+            }
+        </style>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+                <!-- Title Slide -->
+                <section class="title-slide"  data-background-color="D9E5FA">
+                    <h1>Connected Occupancy and Clinic Health</h1>
+                    <p>The Bartlett Centre for Advanced Spatial Analysis, UCL</p>
+                    <p style="font-size: 0.7em; margin-top: 1em;">On behalf of The HERCULES Consortium. <br>Funded by the NIHR Biomedical Research Centre at Moorfields Eye Hospital</p>
+                    <aside class="notes">Overview of COACH work at Brent Cross as part of the Hercules project</aside>
+                </section>
+
+                <!-- Intro + Background -->
+                <section>
+
+                    <section data-background="img/COACHv1.jpeg" data-background-opacity="0.8">
+                        <div class="split-layout">
+                            <!-- Left Column -->
+                            <div> 
+                            </div>
+                            <!-- Right Column -->
+                            <div class="split-text"> 
+                                <h2>COACH</h2>
+                                <p>A tool designed to provide valuable insights into workspace utilization and environmental conditions. Leveraging the power of Internet of Things (IoT) technology, COACH captures, stores, and presents real-time data to enable informed decision-making.</p>
+                                
+                            </div>
+                        </div>
+                        <aside class="notes">It combines IoT technology with advanced sensors to collect data on occupancy, environmental factors, and more. The tool aims to provide a detailed understanding of workspace use and their associated environmental conditions.</aside>
+                    </section>
+
+                    <!-- Split slide -->
+                    <section data-background-color="EDD9FA">
+                        <div class="split-layout">
+                            <!-- Left Column -->
+                            <div class="split-text"> 
+                                <h2>BX1</h2>
+                                <p>Brent Cross phase 1 - first pop up clinic, focused on tracking of patients through the clinic and modelled their exposure to environmental conditions</p>
+                            </div>
+                            <!-- Right Column -->
+                            <div > 
+                                <img src="img/BX1flow.png">
+                                <img src="img/BX1sensor.png">
+                            </div>
+                        </div>
+                        <aside class="notes">xxx</aside>
+                    </section>
+                                        
+                    <section>
+                        <div class="split-layout">
+                            <!-- Left Column -->
+                            <div class="split-text"> 
+                                <h2>BX2</h2>
+                                <p>Brent Cross phase 2 - clinic with more traditional floor to ceiling partitions - IoT used to monitor occupancy of spaces and environmental conditions.</p>
+                            </div>
+                            <!-- Right Column -->
+                            <div > 
+                                <img src="img/BX2coach.png">
+                            </div>
+                        </div>
+                        <aside class="notes">xxx</aside>
+                    </section>                    
+
+                    
+                    <section>
+                        <div class="split-layout">
+                            <!-- Left Column -->
+                            <div class="split-text"> 
+                                <h2>BX2</h2>
+                                <p>20 Devices Deployed. Green Wall mounted, purple ceiling mounted.</p>
+                            </div>
+                            <!-- Right Column -->
+                            <div > 
+                                <img src="img/BX2map.jpg">
+                            </div>
+                        </div>
+                        <aside class="notes">xxx</aside>
+                    </section>  
+
+                </section>
+
+                <section>
+                    <section>
+                        <h2>Device Design</h2>
+                    </section>
+                    <section>
+                        <img  class="r-stretch" src="img/COACH.png" alt="COACH Device" style="display: block; margin-left: auto; margin-right: auto; width: 50%;">
+                        <aside class="notes">xxx</aside>
+                    </section>
+
+                    
+                    <section data-background-color="EDD9FA">
+                        <div class="split-layout">
+                            <!-- Left Column -->
+                            <div class="split-text"> 
+                                <p>Internal sensor positioning</p>
+                                <img src="img/COACHmodel.gif">
+                            </div>
+                            <!-- Right Column -->
+                            <div > 
+                                <img src="img/COACHinternal.png">
+                                <p>Based on Arduino MKR Wifi 1010, Custom PCB</p>
+                            </div>
+                        </div>
+                        <aside class="notes">xxx</aside>
+                    </section>
+                </section>
+
+                <!-- video of flooding -->
+                <section data-background-video="../video/HouseMill3Aug23.mp4"
+                    data-background-video-autoplay
+                    data-background-video-muted="true"
+                    data-background-size="cover">
+
+                    <aside class="notes">video?</aside>
+                </section>
+
+                <!-- Basic slide -->
+                <section>
+                    <h2>xxx</h2>
+                    <p>xxx</p>
+                    <aside class="notes">xxx</aside>
+                </section>
+
+                <!-- Split slide -->
+                <section data-background-color="EDD9FA">
+                    <div class="split-layout">
+                        <!-- Left Column -->
+                         <div class="split-text"> 
+                            <h2>xxx</h2>
+                            <p>xxx</p>
+                        </div>
+                        <!-- Right Column -->
+                        <div > 
+                            <img src="img/BX2waiting-area.png">
+                            <img src="img/BX2booth.png">
+                        </div>
+                    </div>
+                    <aside class="notes">xxx</aside>
+                </section>
+
+                <!-- Full image -->
+                <section>
+                    <img  class="r-stretch" src="img/COACHv1.jpeg" alt="Dashboard Image" style="display: block; margin-left: auto; margin-right: auto; width: 50%;">
+                    <aside class="notes">xxx</aside>
+                </section>
+
+
+
+
+				<section data-background="../images/flood-inside.jpeg" data-background-opacity="0.9">
+                    <div class="split-layout">
+                        <!-- Left Column -->
+                            <div class="split-text"> 
+                            <p>
+                                Thank you! <br>
+                                <a href="www.connected-environments.org">www.connected-environments.org</a><br>
+                                <a href="grafana.cetools.org">grafana.cetools.org</a> <br>
+                                <a href="www.iot.io">www.iot.io</a>
+                            </p>
+                        </div>
+                    </div>
+                    <aside class="notes">xxx</aside>
+                </section>
+
+
+			</div>
+		</div>
+
+
+
+
+
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/reveal.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/plugin/notes/notes.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/plugin/markdown/markdown.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/plugin/highlight/highlight.min.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+                slideNumber: true,
+                transition: 'none',
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
